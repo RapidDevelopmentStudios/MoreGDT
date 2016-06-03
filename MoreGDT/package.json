@@ -1,0 +1,13 @@
+{
+    "id": "MoreGDT",
+    "name": "MoreGDT",
+    "version": "0.1",
+    "author": "Rapid Development Studios",
+    "url": "",
+    "description": "This mod aims to expand and enhance your GDT experience, by adding new platforms, events, topics and more.",
+    "main": "./Main.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+    },
+    "image": "Icon/ModIcon/ModIcon-120x.png"
+}
