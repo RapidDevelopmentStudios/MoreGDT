@@ -20,7 +20,7 @@ GDT.loadJs([
 			//Topics, Reseraches and Events
 			'Code/Game/Topics.js',
 			//Storylines
-			'Code/Storyline/Vindows.js',
+			//'Code/Storyline/Vindows.js',
 			//Extra
 			'Code/Extra/welcomeMessage.js',
 			'Code/Extra/completeMessage.js',

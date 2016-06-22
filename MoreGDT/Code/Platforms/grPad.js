@@ -53,7 +53,7 @@ GDT.addPlatform({
     genreWeightings : [0.8, 0.9, 0.7, 0.9, 0.9, 1],
     audienceWeightings : [0.9, 1, 0.6],
     techLevel : 5,
-    iconUri : Placeholder_Icon,
+    iconUri : grPad2_Icon,
     events : [{
             id : 'grPad3_Announcement',
             date : '28/3/1',
