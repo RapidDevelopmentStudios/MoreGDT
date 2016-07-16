@@ -61,7 +61,7 @@ GDT.addPlatform({
 });
 GDT.addPlatform({
     id : 'Nebula Nexis.MGDT',
-    name : 'Nexis S',
+    name : 'Nexis Nebula',
     company : 'Voogle/Samsing',
     startAmount : 1.3,
     unitsSold : 2.4,
@@ -89,8 +89,8 @@ GDT.addPlatform({
 
 GDT.addPlatform({
     id : 'Nexis 4.MGDT',
-    name : 'Nexis S',
-    company : 'Voogle/Samsing',
+    name : 'Nexis 4',
+    company : 'Voogle/LS',
     startAmount : 1.3,
     unitsSold : 2.5,
     licencePrize : 400000,
@@ -117,8 +117,8 @@ GDT.addPlatform({
 
 GDT.addPlatform({
     id : 'Nexis 5.MGDT',
-    name : 'Nexis S',
-    company : 'Voogle/Samsing',
+    name : 'Nexis 5',
+    company : 'Voogle/LS',
     startAmount : 1.3,
     unitsSold : 2.9,
     licencePrize : 400000,
@@ -146,12 +146,12 @@ GDT.addPlatform({
 GDT.addPlatform({
     id : 'Nexis 6.MGDT',
     name : 'Nexis S',
-    company : 'Voogle/Samsing',
+    company : 'Voogle/Steamrola',
     startAmount : 1.3,
     unitsSold : 3.2,
     licencePrize : 400000,
-    published : '27/10/3',
-    platformRetireDate : '255/12/4',
+    published : '27/11/3',
+    platformRetireDate : '28/10/4',
     developmentCosts : 80000,
     genreWeightings : [0.8, 0.8, 0.7, 0.9, 0.7, 1 ],
     audienceWeightings : [0.9, 1, 0.6],
@@ -160,6 +160,62 @@ GDT.addPlatform({
     events : [{
             id : 'Nexis6_Announce',
             date : '27/10/1',
+            getNotification : function (company) {
+                return new Notification({
+                    header : "Industry News".localize(),
+                    text : "",
+                    image : Placeholder_Icon,
+                });
+            }
+        }
+    ]
+});
+
+GDT.addPlatform({
+    id : 'Nexis 5X.MGDT',
+    name : 'Nexis 5X',
+    company : 'Voogle/LS',
+    startAmount : 1.3,
+    unitsSold : 3.2,
+    licencePrize : 400000,
+    published : '28/10/4',
+    platformRetireDate : '29/10/4',
+    developmentCosts : 80000,
+    genreWeightings : [0.8, 0.8, 0.7, 0.9, 0.7, 1 ],
+    audienceWeightings : [0.9, 1, 0.6],
+    techLevel : 6,
+    iconUri : Placeholder_Icon,
+    events : [{
+            id : 'Nexis5X_Announce',
+            date : '28/9/1',
+            getNotification : function (company) {
+                return new Notification({
+                    header : "Industry News".localize(),
+                    text : "",
+                    image : Placeholder_Icon,
+                });
+            }
+        }
+    ]
+});
+
+GDT.addPlatform({
+    id : 'Nexis 6P.MGDT',
+    name : 'Nexis 6P',
+    company : 'Voogle/Mywei',
+    startAmount : 1.3,
+    unitsSold : 3.2,
+    licencePrize : 400000,
+    published : '28/8/4',
+    platformRetireDate : '255/12/4',
+    developmentCosts : 80000,
+    genreWeightings : [0.8, 0.8, 0.7, 0.9, 0.7, 1 ],
+    audienceWeightings : [0.9, 1, 0.6],
+    techLevel : 6,
+    iconUri : Placeholder_Icon,
+    events : [{
+            id : 'Nexis6P_Announce',
+            date : '28/7/1',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),

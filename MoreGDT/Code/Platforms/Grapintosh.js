@@ -290,8 +290,8 @@ GDT.addPlatform({
 });
 
 GDT.addPlatform({
-    id: 'iGrap.MGDT',
-    name: 'iGrap',
+    id: 'iGrap2.MGDT',
+	name: 'iGrap',
     company: 'Grapple',
     startAmount: 0.27,
     unitsSold: 0.37,

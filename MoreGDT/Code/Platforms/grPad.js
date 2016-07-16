@@ -1,4 +1,4 @@
-var MoreGrappleReborn = {};
+var MoreGDT = {};
 
 //Set grPad Retire Date
 var grPad = Platforms.allPlatforms.first(function(p){return p.id == 'grPad';});
@@ -7,7 +7,11 @@ var grPad = Platforms.allPlatforms.first(function(p){return p.id == 'grPad';});
     }
 	
 //Image Variables
-var Placeholder_Icon = [GDT.getRelativePath() + '/../../Img/Placeholder/Placeholder.png']
+var grPad2_Icon = [GDT.getRelativePath() + '/../../Img/Platforms/grPad/grPad2.png']
+var grPad4_Icon = [GDT.getRelativePath() + '/../../Img/Platforms/grPad/grPad4.png']
+var grPadAir_Icon = [GDT.getRelativePath() + '/../../Img/Platforms/grPad/grPad Air.png']
+var grPadAir2_Icon = [GDT.getRelativePath() + '/../../Img/Platforms/grPad/grPad Air 2.png']
+var grPadPro_Icon = [GDT.getRelativePath() + '/../../Img/Platforms/grPad/grPadPro.png']
 
 //Add Platforms
 GDT.addPlatform({
@@ -23,15 +27,15 @@ GDT.addPlatform({
     genreWeightings : [0.8, 0.9, 0.7, 0.9, 0.9, 1],
     audienceWeightings : [0.9, 1, 0.6],
     techLevel : 5,
-    iconUri : Placeholder_Icon,
-    events : [{
+	iconUri : grPad2_Icon,
+	events : [{
             id : 'grPad2_Announcement',
             date : '26/3/1',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),
                     text: "Today, a new grPad model was announced by Grapple. The new device, named the grPad 2 features a 1GHz ARN Vortex-G9 as part of the Grapple G5 SOC CPU and 512MB of DDR2 Memory. The device will ship with gOS 4.2.1 {0}".localize().format(General.getETADescription('26/3/1', '26/3/2')),
-                     image : Placeholder_Icon,
+                     image : grPad2_Icon,
                 });
             }
         }
@@ -51,7 +55,7 @@ GDT.addPlatform({
     genreWeightings : [0.8, 0.9, 0.7, 0.9, 0.9, 1],
     audienceWeightings : [0.9, 1, 0.6],
     techLevel : 5,
-    iconUri : Placeholder_Icon,
+    iconUri : grPad2_Icon,
     events : [{
             id : 'grPad3_Announcement',
             date : '28/3/1',
@@ -59,7 +63,7 @@ GDT.addPlatform({
                 return new Notification({
                     header : "Industry News".localize(),
                     text: "Grapple announced the grPad 3 today. The updated model features a 1GHz Dual-Core ARN Vortex-G9 Chip as part of the Grapple G5X SOC and 1GB of LPDDR2 RAM. The device will ship with gOS 5.1 {0}".localize().format(General.getETADescription('28/3/1', '28/3/3')),
-                     image : Placeholder_Icon,
+                     image : grPad2_Icon,
                 });
             }
         }
@@ -79,7 +83,7 @@ GDT.addPlatform({
     genreWeightings : [0.8, 0.9, 0.7, 0.9, 0.9, 1],
     audienceWeightings : [0.9, 1, 0.6],
     techLevel : 5,
-    iconUri : Placeholder_Icon,
+    iconUri : grPad4_Icon,
     events : [{
             id : 'grPad4_Announcement',
             date : '30/10/4',
@@ -87,7 +91,7 @@ GDT.addPlatform({
                 return new Notification({
                     header : "Industry News".localize(),
                     text: "Less than a year after it's release, the successor to the grPad 3 was revealed today by Grapple. The grPad 4 features the new 1.4GHz Dual-Core Grapple Swift CPU as part of the G6X SOC. It comes with the same RAM configuration as the grPad 3 and will ship with gOS 6.0.1 {0}".localize().format(General.getETADescription('30/10/4', '30/11/1')),
-                     image : Placeholder_Icon,
+                     image : grPad4_Icon,
                 });
             }
         }
@@ -107,7 +111,7 @@ GDT.addPlatform({
     genreWeightings : [0.8, 0.9, 0.7, 0.9, 0.9, 1],
     audienceWeightings : [0.9, 1, 0.6],
     techLevel : 6,
-    iconUri : Placeholder_Icon,
+    iconUri : grPadAir_Icon,
     events : [{
             id : 'grPadAir_Announcement',
             date : '32/10/4',
@@ -115,7 +119,7 @@ GDT.addPlatform({
                 return new Notification({
                     header : "Industry News".localize(),
                     text: "Grapple revealed the new grPad Air today, and it is the successor to the grPad 4. It features a un-named 1.4GHz CPU as part of the G7 SOC. Grapple have also included a seperate K7 Kinetic Co-Processor to handle movement calculations. It will ship with gOS 7.0.3 {0}".localize().format(General.getETADescription('32/10/4', '32/11/1')),
-                     image : Placeholder_Icon,
+                     image : grPadAir_Icon,
                 });
             }
         }
@@ -135,7 +139,7 @@ GDT.addPlatform({
     genreWeightings : [0.8, 0.9, 0.7, 0.9, 0.9, 1],
     audienceWeightings : [0.9, 1, 0.6],
     techLevel : 6,
-    iconUri : Placeholder_Icon,
+    iconUri : grPadAir2_Icon,
     events : [{
             id : 'grPadAir2_Announcement',
             date : '34/10/3',
@@ -143,7 +147,7 @@ GDT.addPlatform({
                 return new Notification({
                     header : "Industry News".localize(),
                     text: "Grapple announced the new grPad model today, named the grPad Air 2. It features a 1.5GHz Tri-Core ARN-G8 Typhoon CPU as part of the G8X SOC. It also features 2GB of LPDDR3 RAM and a K8 Kinetic Co-Processor and features the fingerprint reader present on grPhones. It will ship with gOS 8.1 {0}".localize().format(General.getETADescription('34/10/3', '34/10/4')),
-                     image : Placeholder_Icon,
+                     image : grPadAir2_Icon,
                 });
             }
         }
@@ -163,7 +167,7 @@ GDT.addPlatform({
     genreWeightings: [0.8, 0.9, 0.7, 0.9, 0.9, 1],
     audienceWeightings: [0.9, 1, 0.6],
     techLevel: 7,
-    iconUri: Placeholder_Icon,
+    iconUri: grPadPro_Icon,
     events: [{
         id: 'grPadPro9.7_Announcement',
         date: '36/3/3',
@@ -171,7 +175,7 @@ GDT.addPlatform({
            return new Notification({
                 header: "Industry News".localize(),
                 text: "After 3 years, Grapple announced the new grPad Model today, named the grPad Pro. It features a 2.26GHz Quad-Core ARN-G8 CPU as part of the G9X SOC. It also includes 4GB of LPDDR4 RAM. Grapple are also offering a keyboard and stylus for this model. It will ship with gOS 9.3 {0}".localize().format(General.getETADescription('36/3/3', '36/3/4')),
-                image: Placeholder_Icon
+                image: grPadPro_Icon,
             });
         }
     }

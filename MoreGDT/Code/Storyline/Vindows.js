@@ -1,13 +1,15 @@
 var MoreGDT = {};
 
 //Images
-var Vindows1Logo = [GDT.getRelativePath() + '/../../Img/Events/Vindows/Vindows1.png']
-var Vindows3dot1Logo = [GDT.getRelativePath() + '/../../Img/Events/Vindows/Vindows3.1.png']
-var Vindows9xLogo = [GDT.getRelativePath() + '/../../Img/Events/Vindows/Vindows9x.png']
-var VindowsXPLogo = [GDT.getRelativePath() + '/../../Img/Events/Vindows/VindowsXP.png']
-var VindowsVistaLogo = [GDT.getRelativePath() + '/../../Img/Events/Vindows/VindowsVista.png']
-var Vindows7Logo = [GDT.getRelativePath() + '/../../Img/Events/Vindows/Vindows7.png']
-var Vindows8Logo = [GDT.getRelativePath() + '/../../Img/Events/Vindows/Vindows8.png']
+var Vindows1Logo = [GDT.getRelativePath() + '/../../Img/Storyline/Vindows/Vindows1.png']
+var Vindows3dot1Logo = [GDT.getRelativePath() + '/../../Img/Storyline/Vindows/Vindows3.1.png']
+var Vindows9xLogo = [GDT.getRelativePath() + '/../../Img/Storyline/Vindows/Vindows9x.png']
+var VindowsXPLogo = [GDT.getRelativePath() + '/../../Img/Storyline/Vindows/VindowsXP.png']
+var VindowsVistaLogo = [GDT.getRelativePath() + '/../../Img/Storyline/Vindows/VindowsVista.png']
+var Vindows7Logo = [GDT.getRelativePath() + '/../../Img/Storyline/Vindows/Vindows7.png']
+var Vindows8Logo = [GDT.getRelativePath() + '/../../Img/Storyline/Vindows/Vindows8.png']
+var Vindows10Logo = [GDT.getRelativePath() + '/../../Img/Storyline/Vindows/Vindows8.png']
+
 
 //Vindows 1
 GDT.addEvent({
@@ -279,7 +281,7 @@ GDT.addEvent({
 		return new Notification({
 			header: "Vindows",
 			text: "Today, Micronoft released the newest version of Vindows, named Vindows 10. It adresses many of the complaints from 8 and 8.1, such as reintroducing the Start Menu. The new Start Menu also has the ability to have modern apps pinned to it.{n} Another new feature to make the Operating System better for Desktop users is the ability to run Modern Apps inside of a window, which was not present in 8 or 8.1.",
-			image: Vindows8Logo,
+			image: Vindows10Logo,
 			buttonText: "OK",
 		})
 	}
