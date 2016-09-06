@@ -2,12 +2,12 @@ var showMenuUI = UI._showContextMenu;
 var showMenuItem = function(type, menuItems, x, y) {
     var company = GameManager.company;
         menuItems.push({
-            label: "MoreGDT...".localize("menu item"),
+            label: "MoreGDT Helpbook".localize("menu item"),
             action: function() {
                 Sound.click();
                 CreateWindow();
-                GameManager.resume(true);
-                var div = $("#mrGDTHelpMain");
+                GameManager.resume(false);
+                var div = $("#MoreGDTDiv");
                 div.scrollTop();
                 div.gdDialog({
                     popout: !0,
@@ -18,6 +18,7 @@ var showMenuItem = function(type, menuItems, x, y) {
     showMenuUI(type, menuItems, x, y);
 }
 UI._showContextMenu = showMenuItem;
+
 
 //Functions, pop up links.
 
@@ -34,15 +35,15 @@ var SGPage = function () {
 
 CreateWindow = function() {
 
-	//Main Body - Using HTML
-
-	var div = $("body");
-	div.append('<div id="mrGDTHelpMain" class="tallWindow windowBorder" style=z-index: 5400;overflow:auto;display:none;border:2px solid #cccccc;background-color:#ffffff;-webkit-box-shadow:0 0 6px#888;box-shadow:0 0 5px #888;"> <div id="cheatmodtop"> <div id="mrGDTHelpMainDivTitle" class="windowTitle smallerWindowTitle">MoreGDT Helpbook</div><h2 style="color: #E80026" > MoreGDT Info & Help</h2><p style="color: grey" >The goal of MoreGDT is to expand on your GDT experience. We acheive this by adding new platforms, topics, researches, story elements and more.</p><h2 style="color: CD0000" > 0.2 Additions</h2><p style="color: grey" ><ul><li>New grPad Images</li><li>23 New Topics</li><li>Removal of Vindows Storyline, it will be reworked in a future update</li></ul></p><h2 style="color: 9E9E9E" > FAQ</h2><p style="color: grey" ></p><h2 style="color: 9E9E9E" > Development Team</h2><p style="color: grey" >KizzaGaming - Project Lead/Programming<p style="color: grey" >Diamox - Programming<p style="color: grey" >SnowyOwl - Programming<p style="color: grey" >iSenzo - Graphics</div>');
-	div = $("#mrGDTHelpMain");
+var div = $("body");
+	
+	div.append('<div id="MoreGDTDiv" class="windowBorder tallWindow" style="overflow: auto; display: none; background-color: #ffffff; border: solid; border-color: #cccccc"> <div id="MoreGDTDivTitle" class="windowTitle smallerWindowTitle">MoreGDT Helpbook</div> <h2 style="color: #cccccc; text-align:center">About the MoreGDT Helpbook</h2> <p style="text-align:center">The MoreGDT Helpbook provides information about MoreGDT such as the changelog, team information and important links.</p><div id="MoreGDTSeperator" class="windowTitle smallerWindowTitle"></div><h2 style="color: #cccccc; text-align:center">Changelog (Version 0.2.1)</h2><p style="text-align:center">Redesigned Helpbook</p><div id="MoreGDTSeperator" class="windowTitle smallerWindowTitle"></div><h2 style="color: #cccccc; text-align:center">Team Members</h2><p style="text-align:center">KizzaGaming - Project Lead/Programmer</p><p style="text-align:center">Diamox - Programmer</p><p style="text-align:center">ChizbeJoe - Programmer</p><p style="text-align:center">SirStig - Programmer</p><p style="text-align:center">iSenzo - Art</p><div id="MoreGDTSeperator" class="windowTitle smallerWindowTitle"></div><h2 style="color: #cccccc; text-align:center">Important Links</h2></div>');
+	
+	div = $("#MoreGDTDiv");
 
     //Buttons
 
-	div.append('<div id="GHGButton" class="selectorButton blueShadeCustom" centeredButtonWrapper onclick="GHGPage()" style="margin:0 auto">Forum Post</div>');
-	div.append('<div id="discordButton" class="selectorButton blueShadeCustom" centeredButtonWrapper onclick="discordPage()" style="margin:0 auto">Discord Server</div>');
-	div.append('<div id="SGButton" class="selectorButton blueShadeCustom" centeredButtonWrapper onclick="SGPage()" style="margin:0 auto">Steam Group</div>');
+	div.append('<div id="GHGButton" class="selectorButton" centeredButtonWrapper onclick="GHGPage()" style="margin:0 auto">Forum Post</div>');
+	div.append('<div id="discordButton" class="selectorButton" centeredButtonWrapper onclick="discordPage()" style="margin:0 auto">Discord Server</div>');
+	div.append('<div id="SGButton" class="selectorButton" centeredButtonWrapper onclick="SGPage()" style="margin:0 auto">Steam Group</div>');
 }

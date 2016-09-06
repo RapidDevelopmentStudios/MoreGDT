@@ -8,7 +8,7 @@ GDT.addEvent({
 	getNotification: function(company){ 
 	    return new Notification({
 	        header: "MoreGDT",
-	        text: "Thank you for installing MoreGDT. \n You can join our steam group at http://steamcommunity.com/groups/Rapid_DS \n Current Version: 0.2 Beta 3 (ITB)",
+	        text: "Thank you for installing MoreGDT. \n You can join our steam group at http://steamcommunity.com/groups/Rapid_DS",
 	        image : RDSLogo,
 			buttonText: ":)",
 	        

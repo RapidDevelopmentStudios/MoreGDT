@@ -27,7 +27,7 @@ GDT.loadJs([
 			//Extra
 			'Code/Extra/welcomeMessage.js',
 			'Code/Extra/completeMessage.js',
-			'Code/Extra/helpBook.js',
+			//'Code/Extra/helpBook.js',
 ], ready, error);
 
 })();
