@@ -1,9 +1,9 @@
 {
     "id": "MoreGDT",
     "name": "MoreGDT",
-	"version": "0.2 Beta 2",
+	"version": "0.3 - Beta 1",
     "author": "Rapid Development Studios",
-    "url": "http://rapiddevelopmentstudios.github.io/MoreGDT/",
+    "url": "http://rapiddevstudios.wix.com/rapiddevstudios",
     "description": "This mod aims to expand and enhance your GDT experience, by adding new platforms, events, topics and more.",
     "main": "./Main.js",
     "dependencies": {
@@ -11,3 +11,4 @@
     },
     "image": "Icon/ModIcon/ModIcon-120x.png"
 }
+

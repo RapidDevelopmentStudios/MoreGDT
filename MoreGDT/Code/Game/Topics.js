@@ -10,6 +10,20 @@ GDT.addTopics([
     audienceWeightings: [0.8, 1, 0.8]
 },
 
+{
+   	id: "animeTopic.MGDT",
+   	name: "Anime".localize("game topic"),
+   	genreWeightings: [1, 0.8, 1, 0.6, 0.6, 0.6],
+   	audienceWeightings: [0.6, 0.7, 1]
+},
+
+{ 
+	id: "archeryTopic.MGDT",
+	name: "Archery".localize("game topic"),
+	genreWeightings: [  0.8, 1, 0.9, 1, 0.6, 0.6 ],
+	audienceWeightings: [  0.7, 1, 0.8 ]
+},
+
 //B
 
 //C
@@ -20,7 +34,27 @@ GDT.addTopics([
     audienceWeightings: [0.8, 1, 0.8]
 },
 
+{ 
+	id: "ctfTopic.MGDT",
+	name: "Capture the Flag".localize("game topic"),
+	genreWeightings: [0.8, 0.8, 0.9, 0.8, 0.9, 1],
+	audienceWeightings: [0.9, 1, 0.7]
+},
+
+{ 
+	id: "classicTopic.MGDT",
+	name: "Classic".localize("game topic"),
+	genreWeightings: [  1, 0.8, 0.9, 0.7, 0.9, 0.6 ],
+	audienceWeightings: [  0.9, 1, 0.7 ]
+},
+
 //D
+{
+	id: "divingTopic.MGDT",
+	name: "Diving".localize("game topic"),
+	genreWeightings: [0.8, 0.7, 0.7, 1, 0.8, 0.9],
+	audienceWeightings: [0.7, 1, 0.7]
+},
 
 //E
 
@@ -33,6 +67,12 @@ GDT.addTopics([
 },
 
 //G
+{
+    id: "golfTopic.MGDT",
+    name: "Golf".localize("game topic"),
+    genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
+    audienceWeightings: [0.7, 1, 0.7]
+},
 
 //H
 
@@ -43,6 +83,12 @@ GDT.addTopics([
 //J
 
 //K
+{ 
+	id: "kingTopic.MGDT",
+	name: "King".localize("game topic"),
+	genreWeightings: [0.6, 0.6, 0.9, 1, 0.6, 0.8],
+	audienceWeightings: [0.9, 0.8, 0.8]
+},
 
 //L
 { 
@@ -72,9 +118,36 @@ GDT.addTopics([
     audienceWeightings: [0.7, 0.9, 1]
 },
 
+{
+    id: "pinballTopic.MGDT",
+    name: "Pinball".localize("game topic"),
+    genreWeightings: [0.6, 0.6, 0.6, 0.9, 0.8, 1],
+    audienceWeightings: [0.8, 1, 0.7]
+},
+
 //Q
 
 //R
+{
+    id: "rockbandTopic.MGDT",
+    name: "Rockband".localize("game topic"),
+    genreWeightings: [0.6, 0.6, 0.8, 1, 0.7, 0.9],
+    audienceWeightings: [0.7, 0.9, 1]
+},
+
+{ 
+	id: "rollercoasterTopic.MGDT",
+	name: "Roller Coaster".localize("game topic"),
+	genreWeightings: [  1, 0.8, 0.9, 0.7, 0.9, 0.6 ],
+	audienceWeightings: [  0.9, 1, 0.7 ]
+},
+
+{ 
+	id: "robotsandmechanics.MGDT",
+	name: "Robots/Mechanics".localize("game topic"),
+	genreWeightings: [  1, 0.8, 0.9, 0.7, 0.9, 0.6 ],
+	audienceWeightings: [  0.9, 1, 0.7 ]
+},
 
 //S
 {
@@ -91,7 +164,20 @@ GDT.addTopics([
     audienceWeightings: [0.7, 0.9, 1]
 },
 
+{ 
+	id: "snipingTopic.MGDT",
+	name: "Sniping".localize("game topic"),
+	genreWeightings: [  1, 0.9, 0.9, 0.9, 0.8, 0.6 ],
+	audienceWeightings: [  0.6, 0.8, 1 ]
+},
+
 //T
+{
+    id: "thiefTopic.MGDT",
+    name: "Thief".localize("game topic"),
+    genreWeightings: [1, 0.7, 1, 0.9, 0.8, 0.6],
+    audienceWeightings: [0.7, 0.8, 1]
+},
 
 //U
 
@@ -109,7 +195,14 @@ GDT.addTopics([
     name: "Wrestling".localize("game topic"), 
     genreWeightings: [.9, .6, .6, 1, .6, .8], 
     audienceWeightings: [0.9, 1, 0.6] 
-}
+},
+
+{ 
+	id: "worlddomination.MGDT",
+	name: "World Domination".localize("game topic"),
+	genreWeightings: [  1, 0.8, 0.9, 0.7, 0.9, 0.6 ],
+	audienceWeightings: [  0.9, 1, 0.7 ]
+},
 
 //X
 
