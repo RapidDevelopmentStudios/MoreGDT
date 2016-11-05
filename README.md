@@ -6,8 +6,11 @@ It will achieve this by adding new platforms, topics, researches, story elements
 
 ###Current Features (More to Come)  
 New grPhone platforms
+
 New grPad platforms
+
 New Grapintosh/iGrap platforms
+
 New Voogle platforms 
 
 This is the beta branch of MoreGDT, where the latest beta release is stored. Feel free to look through the code and report any bugs.
