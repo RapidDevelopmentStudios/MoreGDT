@@ -22,9 +22,13 @@ UI._showContextMenu = showMenuItem;
 moreGDT.GHGPage = function () {
 	window.open("https://forum.greenheartgames.com/t/wip-MoreGDT-beta/20681");
 }
+
+
 moreGDT.discordPage = function () {
 	window.open("https://discordapp.com/invite/010CZESIgNZEftAs9");
 }
+
+
 moreGDT.SGPage = function () {
 	window.open("http://steamcommunity.com/groups/RD_Studios");
 }

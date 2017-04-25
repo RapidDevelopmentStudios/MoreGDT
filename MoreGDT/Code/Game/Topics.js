@@ -56,6 +56,13 @@ GDT.addTopics([
 	audienceWeightings: [0.7, 1, 0.7]
 },
 
+{
+    id: "drumsTopic.MGDT",
+    name: "Drums".localize("game topic"),
+    genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
+    audienceWeightings: [0.7, 1, 1]
+},
+
 //E
 
 //F
@@ -72,6 +79,13 @@ GDT.addTopics([
     name: "Golf".localize("game topic"),
     genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
     audienceWeightings: [0.7, 1, 0.7]
+},
+
+{
+    id: "guitarTopic.MGDT",
+    name: "Guitar".localize("game topic"),
+    genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
+    audienceWeightings: [0.7, 1, 1]
 },
 
 //H

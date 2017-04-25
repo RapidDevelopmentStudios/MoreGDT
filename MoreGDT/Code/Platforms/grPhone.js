@@ -6,6 +6,7 @@ var grPhone = Platforms.allPlatforms.first(function(p){return p.id == 'grPhone';
         grPhone.platformRetireDate = '20/7/1';
 	}
 
+
 //Image Variables
 var Platform_grPhone3G_Icon = [GDT.getRelativePath() + '/../../Img/Platforms/grPhone/grPhone3G.png']
 var Platform_grPhone4_Icon = [GDT.getRelativePath() + '/../../Img/Platforms/grPhone/grPhone4.png']
@@ -35,7 +36,7 @@ GDT.addPlatform({
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),
-                    text : "Grapple announced the successor to the grPhone today, named the grPhone 3G. It's internals are the same as the grPhone however this model includes 3G Mobile Networking. It will ship with an updated OS named grPhone OS 2 {0}".localize().format(General.getETADescription('20/6/2', '20/7/1')),
+                    text : "".localize().format(General.getETADescription('20/6/2', '20/7/1')),
                     image : Platform_grPhone3G_Icon,
                 });
             }
