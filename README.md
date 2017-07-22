@@ -14,7 +14,7 @@ environment.
 
 - A huge amount of topics
 
-- A helpbook that should be of use if you do indeed need help or wish to see more information
+- A helpbook that shows the latest changes in MoreGDT and links you to places like our website and more
 
 
 ## Current release and beta versions
