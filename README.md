@@ -17,10 +17,8 @@ environment.
 - A helpbook that shows the latest changes in MoreGDT and links you to places like our website and more
 
 
-## Current release and beta versions
+## Current stable release
 
-- Release: 0.2.1
-
-- Beta: 0.3 Beta 2
+- MoreGDT 0.2.1
 
 This is the master branch of MoreGDT, where you can find pre-release versions of the mod. All kinds of feedback are welcome and if you have a bug to report then please show the error code or screenshot of what the problem is.
