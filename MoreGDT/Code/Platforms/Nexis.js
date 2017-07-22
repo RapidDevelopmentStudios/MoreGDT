@@ -200,7 +200,7 @@ GDT.addPlatform({
     techLevel : 5,
     iconUri : Placeholder_Icon,
     events : [{
-            id : 'Platform_Nexis5X-6P_Announce',
+            id : 'Platform_Nexis5X_Announce',
             //date : '1/1/1',
 			date : '28/9/1',
             getNotification : function (company) {
@@ -230,7 +230,7 @@ GDT.addPlatform({
     techLevel : 6,
     iconUri : Placeholder_Icon,
 	events : [{
-            id : 'Platform_Nexis5X-6P_Announce',
+            id : 'Platform_Nexis6P_Announce',
             //date : '1/1/1',
 			date : '28/9/1',
             getNotification : function (company) {
