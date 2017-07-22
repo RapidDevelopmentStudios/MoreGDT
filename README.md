@@ -1,18 +1,26 @@
 # MoreGDT
-## Welcome to the official GitHub Repository for MoreGDT, a Game Dev Tycoon Mod
+## Welcome to the official GitHub Repository for MoreGDT, a Game Dev Tycoon Mod!
 
-The goal of this mod is to expand on your GDT experience.  
-It will achieve this by adding new platforms, topics, researches, story elements and more.  
+This mod adds all kinds of new platforms, events, topics, storylines and more
+in order to make Game Dev Tycoon more interesting and create a better player
+environment.
 
 ## Current Features (More to Come)  
-New Topics
+- Many more Grapple products including computers, phones and tablets running gOS
 
-New grPhone platforms
+- The Nexis line of products running on Cyborg OS
 
-New grPad platforms
+- vNidia products 
 
-New Grapintosh/iGrap platforms
+- A huge amount of topics
 
-New Voogle platforms 
+- A helpbook that should be of use if you do indeed need help or wish to see more information
 
-This is the beta branch of MoreGDT, where the latest beta release is stored. Feel free to look through the code and report any bugs.
+
+## Current release and beta versions
+
+- Release: 0.2.1
+
+- Beta: 0.3 Beta 2
+
+This is the master branch of MoreGDT, where you can find pre-release versions of the mod. All kinds of feedback are welcome and if you have a bug to report then please show the error code or screenshot of what the problem is.
