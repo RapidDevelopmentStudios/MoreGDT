@@ -17,14 +17,12 @@ environment.
 - A helpbook that shows the latest changes in MoreGDT and links you to places like our website and more
 
 
-## Current release and beta versions
+## Current beta release
 
-- Release: 0.2.1
-
-- Beta: 0.3 Beta 2 (Not compatible with previous saves)
+- MoreGDT 0.3 Beta 2 (Not compatible with previous saves)
 
 ## Boring but important information
 
-Since the version of MoreGDT on the beta branch is, as you expect, in beta form, do not expect it to run perfectly fine. I couldn't stress more that you need to backup your current save files and more before installing any beta versions of MoreGDT. Oh and another note, most beta versions of MoreGDT will require that you start a new save after installation just to make sure it doesn't cause any problems or break anything, unless stated otherwise, if a new release is compatible with your current save files it will be noted next to the version number in the 'Current release and beta versions' section.
+Since the version of MoreGDT on the beta branch is, as you expect, in beta form, do not expect it to run perfectly fine. I couldn't stress more that you need to backup your current save files and more before installing any beta versions of MoreGDT. Oh and another note, most beta versions of MoreGDT will require that you start a new save after installation just to make sure it doesn't cause any problems or break anything, unless stated otherwise, if a new release is compatible with your current save files it will be noted next to the version number in the 'Current beta release' section.
 
 This is the master branch of MoreGDT, where you can find pre-release versions of the mod. All kinds of feedback are welcome and if you have a bug to report then please show the error code or screenshot of what the problem is.
