@@ -21,4 +21,4 @@ environment.
 
 - MoreGDT 0.2.1
 
-This is the master branch of MoreGDT, where you can find pre-release versions of the mod. All kinds of feedback are welcome and if you have a bug to report then please show the error code or screenshot of what the problem is.
+This is the master branch of MoreGDT, where you can find stable versions of the mod. All kinds of feedback are welcome and if you have a bug to report then please show the error code or screenshot of what the problem is.
