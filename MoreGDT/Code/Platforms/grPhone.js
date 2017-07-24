@@ -261,7 +261,7 @@ GDT.addPlatform({
                 return new Notification({
                     header : "Industry News".localize(),
                     text: "The grPhone 7 was announced today at the Grapple press conference. It features the all new Quad-Core G10 Fusion SOC, with 2 of the cores being High Preformance, and the other 2 being High Effiency. It also removes the 3.5mm audio jack, with the included headphones now using the Thunder port.{n} It also features stereo speakers and a new pressure senstive home button, meaning the home button no longer has a physical click to it. {0}".localize().format(General.getETADescription('28/9/2', '28/9/3')),
-                    image : Platform_grPhone6_Icon,
+                    image : Platform_grPhone7_Icon,
                 });
             }
         }

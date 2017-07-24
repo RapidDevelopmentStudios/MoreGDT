@@ -21,7 +21,7 @@ UI._showContextMenu = showMenuItem;
 
 //Functions, pop up links.
 moreGDT.GHGPage = function () {
-	window.open("https://forum.greenheartgames.com/t/wip-MoreGDT-beta/20681");
+	window.open("https://forum.greenheartgames.com/t/wip-moregdt-2017-beta/22473");
 }
 
 
@@ -30,10 +30,10 @@ moreGDT.discordPage = function () {
 }
 
 
-moreGDT.SGPage = function () {
-	window.open("http://steamcommunity.com/groups/RD_Studios");
+moreGDT.GHPage = function () {
+	window.open("https://github.com/RapidDevelopmentStudios/MoreGDT");
 }
 
 moreGDT.WSPage = function () {
-	window.open("http://steamcommunity.com/groups/RD_Studios");
+	window.open("http://rapiddevstudios.wix.com/rapiddevstudios");
 }

@@ -11,8 +11,8 @@ GDT.addPlatform({
     startAmount : 1.1,
     unitsSold : 1.4,
     licencePrize : 350000,
-    published : '23/1/1',
-    platformRetireDate : '23/12/3',
+    published : '22/1/1',
+    platformRetireDate : '22/12/3',
     developmentCosts : 40000,
     genreWeightings : [0.5, 0.6, 0.8, 0.5, 0.7, 1 ],
     audienceWeightings : [0.9, 1, 0.6],
@@ -21,7 +21,7 @@ GDT.addPlatform({
     events : [{
             id : 'Platform_NexisOne_Announce',
             //date : '1/1/1',
-			date : '22/12/2',
+			date : '21/12/2',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),
@@ -42,8 +42,8 @@ GDT.addPlatform({
     startAmount : 1.1,
     unitsSold : 1.6,
     licencePrize : 350000,
-    published : '23/12/3',
-    platformRetireDate : '24/11/3',
+    published : '22/12/3',
+    platformRetireDate : '23/11/3',
     developmentCosts : 50000,
     genreWeightings : [0.5, 0.6, 0.8, 0.5, 0.7, 1 ],
     audienceWeightings : [0.9, 1, 0.6],
@@ -52,7 +52,7 @@ GDT.addPlatform({
     events : [{
             id : 'Platform_NexisS_Announce',
            	//date : '1/1/1',
-			date : '23/11/2',
+			date : '22/12/1',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),
@@ -72,8 +72,8 @@ GDT.addPlatform({
     startAmount : 1.3,
     unitsSold : 2.4,
     licencePrize : 350000,
-    published : '24/11/3',
-    platformRetireDate : '25/11/3',
+    published : '23/11/3',
+    platformRetireDate : '24/11/3',
     developmentCosts : 65000,
     genreWeightings : [0.5, 0.6, 0.8, 0.5, 0.7, 1 ],
     audienceWeightings : [0.9, 1, 0.6],
@@ -82,7 +82,7 @@ GDT.addPlatform({
     events : [{
             id : 'Platform_NebulaNexis_Announce',
             //date : '1/1/1', 
-			date : '24/10/2',
+			date : '23/10/2',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),
@@ -102,8 +102,8 @@ GDT.addPlatform({
     startAmount : 1.3,
     unitsSold : 2.5,
     licencePrize : 400000,
-    published : '25/11/3',
-    platformRetireDate : '26/10/3',
+    published : '24/11/3',
+    platformRetireDate : '25/10/3',
     developmentCosts : 80000,
     genreWeightings : [0.5, 0.6, 0.8, 0.5, 0.7, 1 ],
     audienceWeightings : [0.9, 1, 0.6],
@@ -112,7 +112,7 @@ GDT.addPlatform({
     events : [{
             id : 'Platform_Nexis4_Announce',
             //date : '1/1/1',
-			date : '25/11/2',
+			date : '24/10/4',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News",
@@ -132,8 +132,8 @@ GDT.addPlatform({
     startAmount : 1.3,
     unitsSold : 2.9,
     licencePrize : 400000,
-    published : '26/10/3',
-    platformRetireDate : '27/10/3',
+    published : '25/10/3',
+    platformRetireDate : '26/10/3',
     developmentCosts : 80000,
     genreWeightings : [0.5, 0.6, 0.8, 0.5, 0.7, 1 ],
     audienceWeightings : [0.9, 1, 0.6],
@@ -142,7 +142,7 @@ GDT.addPlatform({
     events : [{
             id : 'Platform_Nexis5_Announce',
             //date: '1/1/1',
-			date : '26/9/2',
+			date : '25/9/2',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),
@@ -162,8 +162,8 @@ GDT.addPlatform({
     startAmount : 1.3,
     unitsSold : 3.2,
     licencePrize : 400000,
-    published : '27/11/3',
-    platformRetireDate : '28/10/4',
+    published : '26/11/3',
+    platformRetireDate : '27/10/4',
     developmentCosts : 80000,
     genreWeightings : [0.5, 0.6, 0.8, 0.5, 0.7, 1 ],
     audienceWeightings : [0.9, 1, 0.6],
@@ -172,7 +172,7 @@ GDT.addPlatform({
     events : [{
             id : 'Platform_Nexis6_Announce',
             //date: '1/1/1',
-			date : '27/10/2',
+			date : '26/10/2',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),
@@ -192,8 +192,8 @@ GDT.addPlatform({
     startAmount : 1.3,
     unitsSold : 3.2,
     licencePrize : 400000,
-    published : '28/10/4',
-    platformRetireDate : '29/10/4',
+    published : '27/10/4',
+    platformRetireDate : '28/10/4',
     developmentCosts : 80000,
     genreWeightings : [0.5, 0.6, 0.8, 0.5, 0.7, 1 ],
     audienceWeightings : [0.9, 1, 0.6],
@@ -202,7 +202,7 @@ GDT.addPlatform({
     events : [{
             id : 'Platform_Nexis5X_Announce',
             //date : '1/1/1',
-			date : '28/9/1',
+			date : '27/9/3',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),
@@ -222,8 +222,8 @@ GDT.addPlatform({
     startAmount : 1.3,
     unitsSold : 3.2,
     licencePrize : 350000,
-    published : '28/8/4',
-    platformRetireDate : '255/12/4',
+    published : '27/8/4',
+    platformRetireDate : '28/12/4',
     developmentCosts : 75000,
     genreWeightings : [0.5, 0.6, 0.8, 0.5, 0.7, 1 ],
     audienceWeightings : [0.9, 1, 0.6],
@@ -232,7 +232,7 @@ GDT.addPlatform({
 	events : [{
             id : 'Platform_Nexis6P_Announce',
             //date : '1/1/1',
-			date : '28/9/1',
+			date : '27/8/1',
             getNotification : function (company) {
                 return new Notification({
                     header : "Industry News".localize(),
