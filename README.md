@@ -16,19 +16,6 @@ environment.
 
 - A helpbook that shows the latest changes in MoreGDT and links you to places like our website and more
 
-## Planned changes for MoreGDT 0.3 Beta 3
-
-- Improved announcements (Some announcements are already designed as planned but most are not and appear to have broken buttons but this is just how things are in beta 2 since this feature will be complete in beta 3)
-
-- New Voogle Pikzel
-
-- More vNidia platforms
-
-- Announcement and release dates to be perfected for the following platforms: Grapintosh, grPhone, grPad, vNidia, Nexis.
-
-- Images for most of the Grapintosh computers
-
-
 ## Current beta release
 
 - MoreGDT 0.3 Beta 2 (Not compatible with previous saves)
