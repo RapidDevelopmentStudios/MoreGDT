@@ -18,7 +18,7 @@ environment.
 
 ## Current beta release
 
-- MoreGDT 0.3 Beta 2 (Not compatible with previous saves)
+- MoreGDT 1.0 Pre-release 2
 
 ## Boring but important information
 
