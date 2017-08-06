@@ -1,0 +1,13 @@
+{
+    "id": "MoreGDT",
+    "name": "[WIP] MoreGDT (New 2017)",
+    "version": "1.0 Pre-Release 1",
+    "author": "Rapid Development Studios",
+    "url": "https://rapiddevelopmentstudios.github.io/",
+    "description": "[h1]Welcome to the official thread for MoreGDT, a Game Dev Tycoon mod![/h1]\n\nThis mod adds all kinds of new platforms, events, topics, storylines and more in order to make Game Dev Tycoon more interesting and create a better player environment.\n\n[h1]Wh",
+    "main": "./Main.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+    },
+    "image": "ModIcon-1080x-Thumbnail.png"
+}
