@@ -28,7 +28,6 @@ GDT.loadJs([
 			//Storylines
 			'Code/Storyline/Vindows.js',
 			
-			
 			//Extra
 			'Code/Extra/welcomeMessage.js',
 			'Code/Extra/helpBook.js',
