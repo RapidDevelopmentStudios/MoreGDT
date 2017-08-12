@@ -42,6 +42,4 @@ Here you can find plenty of information about the mod. You can find help to any 
 
 <a href="https://rapiddevelopmentstudios.github.io/">Rapid Development Studios website (New!)</a>
 
-<a href="https://github.com/RapidDevelopmentStudios/MoreGDT">The Github repository (release/beta)</a>
-
 <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=1086711176">The Steam Workshop page</a>
