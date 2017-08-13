@@ -5,20 +5,9 @@ This mod adds all kinds of new platforms, events, topics, storylines and more
 in order to make Game Dev Tycoon more interesting and create a better player
 environment.
 
-## Current Features (More to Come)  
-- Many more Grapple products including computers, phones and tablets running gOS
+##Overhaul Update
 
-- The Nexis line of products running on Cyborg OS
+The overhaul update is a WIP update for MoreGDT which aims to redo the games timeline, making it fit a more realistic scale. This will allow storylines to contain more features within a given timeframe, greatly expanding on what we can do in terms of storytelling.
 
-- vNidia products 
-
-- A huge amount of topics
-
-- A helpbook that shows the latest changes in MoreGDT and links you to places like our website and more
-
-
-## Current stable release
-
-- MoreGDT 0.2.1
-
-This is the master branch of MoreGDT, where you can find stable versions of the mod. All kinds of feedback are welcome and if you have a bug to report then please show the error code or screenshot of what the problem is.
+##Current Release
+None
