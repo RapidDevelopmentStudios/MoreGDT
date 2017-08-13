@@ -1,13 +1,13 @@
 {
-    "id": "MoreGDT",
-    "name": "MoreGDT",
-	"version": "0.2.1",
+    "id": "MoreGDT.OHA",
+    "name": "MoreGDT (Overhaul Update - Work In Progress)",
+    "version": "1.0-PA1",
     "author": "Rapid Development Studios",
-    "url": "http://rapiddevstudios.wix.com/rapiddevstudios",
-    "description": "This mod aims to expand and enhance your GDT experience, by adding new platforms, events, topics and more.",
+    "url": "https://rapiddevelopmentstudios.github.io/",
+    "description": "MoreGDT is a mod that adds many new platforms, events, topics and more in order to enhance the user experience and create a better environment for the player to interact with. ",
     "main": "./Main.js",
     "dependencies": {
         "gdt-modAPI": "0.1.x"
     },
-    "image": "Icon/ModIcon/ModIcon-120x.png"
+    "image": "Icon/ModIcon/ModIcon-120xOLD.png"
 }
